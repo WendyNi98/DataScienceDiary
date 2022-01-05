@@ -4,7 +4,8 @@
 ### 1. Virtual Environment
 ### 2. Version Control with Git
 ### 3. Coding Convention and Tips
-#### 3.1 Refactor
+#### 3.1 Code Style
+#### 3.2 Refactor
 ### 4. Production
 #### 4.1 Custom Exception
 #### 4.2 Testing
@@ -81,7 +82,12 @@ git commit -am "<commit-message>"
 Find more details in [Git Tutorial](https://www.atlassian.com/git/tutorials)
 
 # 3. Coding Convention and Tips
-### 3.1 Refactor
+### 3.1 Code Style
+
+[PEP8](https://www.python.org/dev/peps/pep-0008/)
+[BOBP Guide for Python](https://gist.github.com/sloria/7001839)
+
+### 3.2 Refactor
 
 Refactor often to improve efficiency.  
 Limit use of hardcode and use config.
@@ -117,12 +123,11 @@ Documentation should include:
 - Methodology
 - Maintenance guide
 
-Documentation template:
 
 # Appendix: Code Base
 ### I. EDA
 pandas-profiling  
-Visualization
+Visualization  
 Tests  
 
 ### II. Util Functions
@@ -130,4 +135,6 @@ Timing
 Logging  
 Exception  
 
-
+### III. Templates
+File Structure [cookiecutter](https://cookiecutter.readthedocs.io/en/1.7.2/README.html)
+Documentation Template
